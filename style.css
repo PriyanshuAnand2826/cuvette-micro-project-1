@@ -1,0 +1,106 @@
+*{
+  font-family: 'Inter';
+}
+
+.main_container{
+  height: 70vh;
+  background-color:#FFCD9E;
+  display: flex;
+  position: relative;
+
+  
+}
+.register-container{
+  display: flex;
+  margin-top: 20px;
+}
+.footer{
+  height: 30vh;
+  background-color: #282828;
+}
+.content-box{
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+.img-conatin{
+  height: 68vh;
+  position: absolute;
+  left: 65%;
+ top: 3%;
+}
+.content-text{
+  font-family: 'Inter';
+  font-weight: bolder;
+  font-size: 25px;
+
+}
+.mid-content{
+  font-family: 'Inter';
+  font-weight: lighter;
+  font-size: 12px;
+  
+} 
+.bottom-content{
+  font-family: 'Inter';
+  font-weight: bolder;
+  margin-top: 30px;
+  font-size: 13px;
+  
+}
+#email-content{
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: medium;
+  width: 60%;
+  color: grey;
+  font-weight: lighter;
+  font-family: 'Inter';
+
+}
+.button-register{
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  padding: 8px;
+  margin-left: 10px;
+  font-size: small;
+  font-weight: bold;
+  font-family: 'Inter';
+  width: 40%;
+}
+.footer{
+  display: flex;
+  position: relative;
+}
+.ul-left-foot{
+  color: white;
+  list-style-type: none;
+  font-size: small;
+  line-height: 25px;
+  
+  
+}
+.left-foot{
+  position: absolute;
+  top: 7%;
+  left: 10%;
+}
+.ul-right-foot{
+  color: white;
+  list-style-type: none;
+  font-size: small;
+  line-height: 25px;
+  text-align: end;
+}
+.right-foot{
+  position: absolute;
+  top: 7%;
+  left: 73%;
+}
+
+
+
+
+
